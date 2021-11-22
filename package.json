@@ -1,5 +1,5 @@
 {
-  "name": "time-function",
+  "name": "convert-time-gmt",
   "version": "0.0.1",
   "description": "convert the timestamp in a format dd/mm/yyyy hh:mm:ss",
   "main": "index.js",
