@@ -1,6 +1,6 @@
 # Convert time GMT
 
-convert the timestamp in a format dd/mm/yyyy hh:mm:ss with GMT as default
+convert the timestamp in a format yyyy/mm/dd hh:mm:ss with GMT as default
 
 ## Installing
 
