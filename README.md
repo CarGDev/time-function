@@ -4,7 +4,9 @@ convert the timestamp in a format dd/mm/yyyy hh:mm:ss with GMT as default
 
 ## Installing
 
+```bash
 npm i convert-time-gmt --save
+```
 
 ## Usage
 
