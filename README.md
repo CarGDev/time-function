@@ -1,10 +1,21 @@
 # Convert time GMT
 
-convert the timestamp in a format dd/mm/yyyy hh:mm:ss
+convert the timestamp in a format dd/mm/yyyy hh:mm:ss with GMT as default
 
-[![GitHub version][github-image]][github-url]
-[![downloads][downloads-image]][npm-url]
-[![license][license-image]][license-url]
-[![GitHub code size in bytes][size-image]][github-url]
+## Installing
 
-[![npm release][npm-image]][npm-url]
+npm i convert-time-gmt --save
+
+## Usage
+
+On the main file:
+
+```js
+const gmtConversion = require('convert-time-gmt')
+
+gmtConversion() // 2021/22/11 12:00:00
+
+gmtConversion(new Date()) // 2021/22/11 12:00:00
+
+gmtConversion(new Date(), 'GMT-05:00') // 2021/22/11 07:00:00
+```
