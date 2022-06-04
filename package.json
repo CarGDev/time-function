@@ -14,6 +14,7 @@
     "city"
   ],
   "author": "Carlos Gutierrez <carlos.gutierrez@tortoise.dev>",
+  "homepage": "https://github.com/CarGDev/time-function",
   "license": "MIT",
   "husky": {
     "hooks": {
